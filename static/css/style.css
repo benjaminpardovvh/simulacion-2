@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 10px;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    flex-direction: row;
+    width: 95%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.texto-logo h1 {
+    color: #26599C;
+    font-size: 25px
+}
+
+.informacion {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.login {
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #2A5EA4;
+        border-radius: 5px;
+}
+
+.ingresar input {
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.contador-contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.texto-contador {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.contenedorGeneros {
+    display: flex;
+    margin: 10px 0;
+    gap: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px;
+    background-color: #D4DDE9;
+    width: 100%;
+}
+
+.generos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    gap: 5px;
+    background-color: #ECEFF4;
+}

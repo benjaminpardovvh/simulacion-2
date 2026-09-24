@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benjamin Pardo">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Libreria</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="static/assets/img/images.png" alt="Libro Abrierto">
+                <div class="texto-logo">
+                    <h2>Biblioteca</h2>
+                    <h1>Horizontes</h1>
+                </div>
+            </div>
+            <div class="informacion">
+                <div class="ingresar">
+                    <input type="email" placeholder="Email" name="email" required autocomplete="off">
+                    <button class="login">ingresar</button>
+                </div>
+                <div class="contador-contenedor">
+                    <img src="" alt="Tablet">
+                    <div class="texto-contador">
+                        <p>Libros</p>
+                        <p>seleccionados</p>
+                    </div>
+                    <p class="contador">0</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="contenedorGeneros">
+            <div class="generos">
+                <img src="static/img/tacos.jpg" alt="" class="Libros">
+                <p>Novelas</p>
+            </div>
+            <div class="generos">
+                <img src="static/img/flautas.jpg" alt="" class="Libros">
+                <p>Ciencias</p>
+            </div>
+            <div class="generos">
+                <img src="static/img/gorditas.jpg" alt="" class="Libros">
+                <p>Historia</p>
+            </div>
+            <div class="generos">
+                <img src="static/img/tostadas.jpg" alt="" class="Libros">
+                <p>Tecnologia</p>
+            </div>
+            <div class="generos">
+                <img src="static/img/enfrijoladas.jpg" alt="" class="Libros">
+                <p>Arte</p>
+            </div>
+            <div class="generos">
+                <img src="" alt="" class="Libros">
+                <p>infantil</p>
+            </div>
+        </section>
+        <section class="contenedorGrande">
+            <div class="contenido">
+                <div class="textoContenedorGrande">
+                    <p class="textoContenedorGrande">Descubre nuevas historias</p>
+                    <div class="raya-azul"></div>
+                    <p class="desc">Explora nuestra Biblioteca virtual y encuentra libros para todos los gustos.
+                        Conocimiento, aventura y mucho más al alcanze de un click.
+                    </p>
+                </div>
+                <div class="imagenCambiante">
+                    <img src="static/img/comida-mexicana.jpg" alt="Comida mexicana" id="imagenCambiante">
+                </div>
+            </div>
+            <div class="contenedorRecomendados">
+                <h2>Libros recomendados:</h2>
+                <div class="recomendados">
+                    <img src="static/img/orden-tacos.jpg" alt="Tacos" class="tacos">
+                    <div class="contenidoRecomendados">
+                        <div class="texto">
+                            <p>Orden de Tacos</p>
+                            <p class="autor"></p>
+                            <a href="#">Ver más...</a>
+                        </div>
+                        <button class="botonOrden" id="boton2">+</button>
+                    </div>
+                </div>
+                <div class="recomendados">
+                    <img src="static/img/orden-flautas.jpg" alt="Flautas" class="flautas">
+                    <div class="contenidoRecomendados">
+                        <div class="texto">
+                            <p>Orden de Flautas</p>
+                            <p class="autor"></p>
+                            <a href="#">Ver más...</a>
+                        </div>
+                        <button class="botonOrden" id="boton1">+</button>
+                    </div>
+                </div>
+                <div class="recomendados">
+                    <img src="static/img/orden-flautas.jpg" alt="Flautas" class="flautas">
+                    <div class="contenidoRecomendados">
+                        <div class="texto">
+                            <p>Orden de Flautas</p>
+                            <p class="autor"></p>
+                            <a href="#">Ver más...</a>
+                        </div>
+                        <button class="botonOrden" id="boton3">+</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados @2026</p>
+    </footer>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
