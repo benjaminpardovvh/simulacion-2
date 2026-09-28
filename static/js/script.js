@@ -1,15 +1,15 @@
-//contador para el "libros seleccionados"
+//Variables para la funcion de "libros seleccionados"
 let contador = 0;
 let boton1 = document.querySelector("#boton1")
 let boton2 = document.querySelector("#boton2")
 let boton3 = document.querySelector("#boton3")
 let carrito = document.querySelector(".contador")
 
-//ingreso de secion
+//Ingreso de sesion
 const barraDeTexto = document.querySelector("#email")
 const botonLogin = document.querySelector(".login")
 
-//contador para el "libros seleccionados"
+//Funcion que aumenta el registro de "libros seleccionados"
 
 boton1.addEventListener("click", function () {
     if (boton1 !== null) {
@@ -38,21 +38,20 @@ boton3.addEventListener("click", function () {
     }
 })
 
-//sistema de login
+//Sistema de login
 
-botonLogin.addEventListener("click", function() {
-    if (botonLogin !== null) {
-        if (barraDeTexto === null) {
-            const correo = barraDeTexto.value
+if (botonLogin !== null && barraDeTexto !== null) {
+    botonLogin.addEventListener("click", function () {
+        let correo = barraDeTexto.value
+        if (correo !== "") {
             alert(`Bienvenido ${correo}`)
+        } else {
+            alert("por favor ingrese un valor valido")
         }
-        else{
-            alert(`por favor ingrese un valor valido`)
-        }
-    } else {
-        console.log("el boton no existe")
-    }
-})
+    })
+} else {
+    console.log("el boton o la barra de texto no existe")
+}
 
 //la imagen que cambia
 let imagen = document.querySelector("#imagenCambiante")

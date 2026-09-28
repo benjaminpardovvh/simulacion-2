@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*nav bar*/
+/*Barra de navegacion*/
 
 .header {
     display: flex;
@@ -81,7 +81,7 @@
     gap: 1px;
 }
 
-/*el main*/
+/*El contenedor principal*/
 
 .container {
     display: flex;
@@ -92,7 +92,7 @@
     margin: 0 auto;
 }
 
-/*la barra que aparece con distintas cositas*/
+/*La barra con generos*/
 
 .contenedorGeneros {
     display: flex;
@@ -120,7 +120,7 @@
     width: 6rem;
 }
 
-/*lo freferido a el contenido principal*/
+/*Lo referido al contenido principal*/
 
 .raya-azul {
     background-color: #2A5F9D;
@@ -155,7 +155,7 @@
     gap: 10px;
 }
 
-/*imagen cambiante // barra izquierda con recomendaciones y footer*/
+/*imagen cambiante // barra izquierda con recomendaciones*/
 
 .textoContenedorGrande {
     font-size: 3.5rem; 
@@ -215,7 +215,7 @@
 }
 
 .contenidoRecomendados {
-    justify-content: space-between;
+    justify-content:space-between;
     display: flex;
     align-items: center;
     margin-top: 5px;
@@ -231,6 +231,17 @@
     color: #6289BF;
 }
 
+.saber-mas {
+    margin-top: 20px ;
+}
+
+.contenido-recomendado {
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
 .botonOrden {
     color: white;
     background-color: #162E44;
@@ -240,6 +251,14 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+/*Footer*/
 
 .footer {
     text-align: center;
