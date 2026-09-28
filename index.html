@@ -10,10 +10,11 @@
 </head>
 
 <body>
+    <!--barra de navegacion-->
     <header class="header">
         <nav class="navbar">
             <div class="logo">
-                <img src="static/assets/img/613167.png" alt="Libro Abrierto">
+                <img src="static/assets/img/libro.png" alt="Libro Abrierto">
                 <div class="texto-logo">
                     <h2>Biblioteca</h2>
                     <h1>Horizontes</h1>
@@ -21,11 +22,11 @@
             </div>
             <div class="informacion">
                 <div class="ingresar">
-                    <input type="email" placeholder="Email" name="email" required autocomplete="off">
+                    <input type="email" placeholder="Email" name="email" required autocomplete="off" id="email">
                     <button class="login">ingresar</button>
                 </div>
                 <div class="contador-contenedor">
-                    <img src="" alt="Tablet">
+                    <img src="static/assets/img/pila_de_libros.png" alt="Tablet">
                     <div class="texto-contador">
                         <p>Libros</p>
                         <p>seleccionados</p>
@@ -35,33 +36,34 @@
             </div>
         </nav>
     </header>
+    <!--el contenido-->
     <main class="container">
-        <section class="contenedorGeneros">
+        <div class="contenedorGeneros">
             <div class="generos">
-                <img src="static/img/tacos.jpg" alt="libro" class="Libros">
+                <img src="static/assets/img/libro.png" alt="libro" class="Libros">
                 <p>Novelas</p>
             </div>
             <div class="generos">
-                <img src="static/img/flautas.jpg" alt="tubo de ensayo" class="Libros">
+                <img src="static/assets/img/frasquito2.png" alt="tubo de ensayo" class="Libros">
                 <p>Ciencias</p>
             </div>
             <div class="generos">
-                <img src="static/img/gorditas.jpg" alt="mausoleo" class="Libros">
+                <img src="static/assets/img/mausoleo2.png" alt="mausoleo" class="Libros">
                 <p>Historia</p>
             </div>
             <div class="generos">
-                <img src="static/img/tostadas.jpg" alt="laptop" class="Libros">
+                <img src="static/assets/img/laptop.png" alt="laptop" class="Libros">
                 <p>Tecnologia</p>
             </div>
             <div class="generos">
-                <img src="static/img/enfrijoladas.jpg" alt="paleta mezcladora" class="Libros">
+                <img src="static/assets/img/paleta.png" alt="paleta mezcladora" class="Libros">
                 <p>Arte</p>
             </div>
             <div class="generos">
-                <img src="" alt="osito de peluche" class="Libros">
+                <img src="static/assets/img/oso2.png" alt="osito de peluche" class="Libros">
                 <p>infantil</p>
             </div>
-        </section>
+        </div>
         <section class="contenedorGrande">
             <div class="contenido">
                 <div class="texto-ContenedorGrande">
@@ -72,41 +74,47 @@
                     </p>
                 </div>
                 <div class="imagenCambiante">
-                    <img src="static/img/comida-mexicana.jpg" alt="Comida mexicana" id="imagenCambiante">
+                    <img src="static/assets/img/personas-biblioteca1.jfif" alt="Comida mexicana" id="imagenCambiante">
                     <p>Conoce Libreria Horizonte</p>
                 </div>
             </div>
             <div class="contenedorRecomendados">
                 <h2>Libros recomendados:</h2>
                 <div class="recomendados">
-                    <img src="static/img/orden-tacos.jpg" alt="Tacos" class="tacos">
+                    <img src="static/assets/img/libro-soledad.jfif" alt="Portada" class="libros-img">
                     <div class="contenidoRecomendados">
                         <div class="texto">
-                            <p>Cien años en soledad</p>
+                            <h3>Cien años en soledad</h3>
                             <p class="autor">Gabriel García Márquez</p>
-                            <a href="#">Ver más...</a>
+                            <a
+                                href="https://www.penguinlibros.com/cl/literatura-contemporanea/367598-libro-cien-anos-de-soledad-edicion-aniversario-9786287641587?srsltid=AU7gw4XQGNnZcA18G2RgkmuFMvGs7TuOVv_sk3bngnYP0ko6Kg-Jknqe">Ver
+                                más...</a>
                         </div>
                         <button class="botonOrden" id="boton2">+</button>
                     </div>
                 </div>
                 <div class="recomendados">
-                    <img src="static/img/orden-flautas.jpg" alt="Flautas" class="flautas">
+                    <img src="static/assets/img/libro-sapiens.jfif" alt="Portada" class="libros-img">
                     <div class="contenidoRecomendados">
                         <div class="texto">
-                            <p>Sapiens</p>
+                            <h3>Sapiens</h3>
                             <p class="autor">Yuval Noah Harari</p>
-                            <a href="#">Ver más...</a>
+                            <a
+                                href="https://www.penguinlibros.com/cl/tematicas/18926-ebook-sapiens-de-animales-a-dioses-9788499924748?srsltid=AU7gw4UiLmiXBRbSzLwbJsU2zO3RPKapNXDrMwhmLcjQ8ktaSAY9pSQL">Ver
+                                más...</a>
                         </div>
                         <button class="botonOrden" id="boton1">+</button>
                     </div>
                 </div>
                 <div class="recomendados">
-                    <img src="static/img/orden-flautas.jpg" alt="Flautas" class="flautas">
+                    <img src="static/assets/img/libro-principito.jfif" alt="Portada" class="libros-img">
                     <div class="contenidoRecomendados">
                         <div class="texto">
-                            <p></p>
-                            <p class="autor"></p>
-                            <a href="#">Ver más...</a>
+                            <h3>El Principito</h3>
+                            <p class="autor">Antonie de Saint-Exupéry</p>
+                            <a
+                                href="https://www.penguinlibros.com/cl/libros-infantiles/76350-libro-el-principito-9788478887194?srsltid=AU7gw4WgywRQND_jeIqpi2shmNUjS4Ofq8QeYWOlGIsa6Y_b8ktEas4V">Ver
+                                más...</a>
                         </div>
                         <button class="botonOrden" id="boton3">+</button>
                     </div>
