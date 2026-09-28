@@ -55,10 +55,11 @@ if (botonLogin !== null && barraDeTexto !== null) {
 
 //la imagen que cambia
 let imagen = document.querySelector("#imagenCambiante")
+
 imagen.addEventListener("mouseover", function () {
-    this.src = "static/assets/img/personas-biblioteca3.jpg"
+    this.src = "static/assets/img/personas-biblioteca1.jfif"
 })
 
 imagen.addEventListener("mouseout", function () {
-    this.src = "static/assets/img/personas-biblioteca1.jfif"
+    this.src = "static/assets/img/biblioteca3.jfif"
 })
